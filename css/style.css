@@ -45,7 +45,19 @@ p{line-height: 1.5;}
 section{
     width: 60%;
     margin: 25px auto;
-    padding: 0.5em;
+    padding: 0 0 0.5em 0;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+}
+.article-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+article{
+    width: 45%;
+    margin:3%;
+    background: #fef;
 }
 h1{
     background-color: #efefef;
@@ -54,6 +66,12 @@ h1{
 h1,h2{
     padding: 0.5em;
 }
+.teaser h2{
+    text-align: center;
+    padding:1em;
+}
 p{
-    padding: 0.5em;
+    padding: 1em;
+    text-align: justify;
+
 }
